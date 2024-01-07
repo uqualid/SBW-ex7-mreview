@@ -25,7 +25,7 @@ public class MovieDTO {
     private List<MovieImageDTO> imageDTOList = new ArrayList<>();
 
     // 영화의 평균 평점
-    private double age;
+    private double avg;
 
     // 리뷰 수 jpa의 count()
     private int reviewCnt;
